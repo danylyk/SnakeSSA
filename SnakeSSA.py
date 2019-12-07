@@ -4,6 +4,7 @@ import os
 
 class App:
     def __init__(self):
+        snake = Snake()
         pygame.init()
         window_info = pygame.display.Info()
         w, h = window_info.current_w, window_info.current_h
